@@ -11,7 +11,16 @@
  - Goal number of steps: The user's goal for number of steps to take each day
  - Average heart rate: The user's average heart rate over the last 24 hours
  */
-
+var name = "John Smith"
+print("A person's name may change if they get married or decide to have it changed")
+var age = 5;
+print("a person grows in age every year")
+var stepsToday = 0;
+print("the steps will increase every time you move")
+var goalSteps = 1;
+print("A person's goals may change")
+var heartrate = 75;
+print("the human heart rate will change depending on many factors")
 
 
 
