@@ -3,8 +3,9 @@
  
  You decide to build a shed and want to know beforehand the area of your yard that it will take up. Create two constants, `width` and `height`, with values of 10 and 20, respectively. Create an `area` constant that is the result of multiplying the two previous constants together, and print out the result.
  */
-let width = 5
-let height = 5
+// SU edits
+let width = 5 // let width = 10
+let height = 5 // let height = 20 
 var area = width*height
 print(area)
 /*:
@@ -15,6 +16,7 @@ print(roomArea)
 /*:
  Create a `perimeter` constant whose value equals `width` plus `width` plus `height` plus `height`, then print out the result.
  */
+
 let perimiter = width+height+width+height
 print(perimiter)
 
@@ -28,9 +30,10 @@ print(integerDivisionResult)
 /*:
  Now create two constants, `double10` and `double3`, set to 10 and 3, and declare their types as `Double` values. Declare a final constant `divisionResult` equal to the result of `double10` divided by `double3`. Print the value of `divisionResult`. How does this differ from the value when using integer division?
  */
-let d10: Double = 10
-let d3: Double = 3
-let DR = d10/d3
+let d10: Double = 10 //let double10: Double = 10
+let d3: Double = 3 // let double3: Double = 3
+let DR = d10/d3 //let divisionResult = double10 / double3
+//print(divisionResult)
 
 /*:
  Given the value pi (3.1415927), create a `radius` constant with a value of 5.0, then calculate the diameter and circumference of the circle using the following equations, and print the results:
@@ -53,5 +56,7 @@ let pi = 3.1415927
 let radius = 5.0
 let diameter = 2*radius
 let circ = 2*pi*radius
-print (diameter,radius,circ)
+print (diameter,radius,circ) /* print(diameter)
+ print(circumference)  */
+
 //: page 1 of 8  |  [Next: App Exercise - Fitness Calculations](@next)
